@@ -6,18 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://joinfisher.github.io">
-  <title>Hello World | Fisher Blog</title>
+  <title>CSS3 连续执行两个动画 | Fisher Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="在w3school上面查到一下，CSS3中的动画由animation和@keyframes 结合实现出来的。以往项目已来，一直做的是单个动画，现在讲解一下两个动画效果如何组合在一起  首先了解一下animation的所有属性 W3school是这样定义的： 1234567891011[animation-name]               规定需要绑定到选择器的 keyframe 名称。。[a">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://joinfisher.github.io/2017/08/20/hello-world/index.html">
+<meta property="og:title" content="CSS3 连续执行两个动画">
+<meta property="og:url" content="https://joinfisher.github.io/2017/06/20/CSS3-连续执行两个动画/index.html">
 <meta property="og:site_name" content="Fisher Blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta property="og:updated_time" content="2017-06-12T16:28:22.944Z">
+<meta property="og:description" content="在w3school上面查到一下，CSS3中的动画由animation和@keyframes 结合实现出来的。以往项目已来，一直做的是单个动画，现在讲解一下两个动画效果如何组合在一起  首先了解一下animation的所有属性 W3school是这样定义的： 1234567891011[animation-name]               规定需要绑定到选择器的 keyframe 名称。。[a">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1892086-f66bcdb2d077733d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2017-06-20T15:24:03.254Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="CSS3 连续执行两个动画">
+<meta name="twitter:description" content="在w3school上面查到一下，CSS3中的动画由animation和@keyframes 结合实现出来的。以往项目已来，一直做的是单个动画，现在讲解一下两个动画效果如何组合在一起  首先了解一下animation的所有属性 W3school是这样定义的： 1234567891011[animation-name]               规定需要绑定到选择器的 keyframe 名称。。[a">
+<meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/1892086-f66bcdb2d077733d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
   
     <link rel="alternative" href="/atom.xml" title="Fisher Blog" type="application/atom+xml">
   
@@ -153,35 +155,40 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-CSS3-连续执行两个动画" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      CSS3 连续执行两个动画
     </h1>
   
 
         
-        <a href="/2017/08/20/hello-world/" class="archive-article-date">
-  	<time datetime="2017-08-20T01:34:45.523Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-20</time>
+        <a href="/2017/06/20/CSS3-连续执行两个动画/" class="archive-article-date">
+  	<time datetime="2017-06-20T15:23:41.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-20</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <p>在w3school上面查到一下，CSS3中的动画由animation和@keyframes 结合实现出来的。以往项目已来，一直做的是单个动画，现在讲解一下两个动画效果如何组合在一起 </p>
+<p>首先了解一下animation的所有属性 W3school是这样定义的：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">[animation-name]               规定需要绑定到选择器的 keyframe 名称。。</div><div class="line"></div><div class="line">[animation-duration]           规定完成动画所花费的时间，以秒或毫秒计。</div><div class="line"></div><div class="line">[animation-timing-function]    规定动画的速度曲线。</div><div class="line"></div><div class="line">[animation-delay]              规定在动画开始之前的延迟。</div><div class="line"></div><div class="line">[animation-iteration-count]    规定动画应该播放的次数。</div><div class="line"></div><div class="line">[animation-direction]          规定是否应该轮流反向播放动画。</div></pre></td></tr></table></figure>
+<p>然后我们用@keyframes 规则来创建两个我们要执行的动画<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">例如：</div><div class="line">@keyframes Effect1&#123;</div><div class="line">	0%&#123; transform:translateY(-200px); opacity:0;&#125;  </div><div class="line">	100%&#123; transform:translateY(0px); opacity:1; &#125;</div><div class="line">&#125;</div><div class="line">@keyframes Effect2&#123;</div><div class="line">	0%&#123; margin-top:20px; &#125;</div><div class="line">	100%&#123; margin-top:0px; &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line">0%表示开始时候的形式，0%表示结束时候的形式。</div></pre></td></tr></table></figure></p>
+<p>接下来我们把写好的两个效果捆绑在“div”元素上 ， 如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">.div&#123;</div><div class="line">	animation-name:Effect1, Effect2;</div><div class="line">	animation-duration:3s, 2s;</div><div class="line">	animation-timing-function:linear, linear;</div><div class="line">	animation-delay:0, 2s;</div><div class="line">	animation-iteration-count:1, infinite;</div><div class="line">	animation-fill-mode:forwards, forwards;</div><div class="line">	animation-direction:normal, alternate;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>这样效果就完成了。</p>
+<p>【PS】这里并没有写兼容，说一下浏览器兼容。</p>
+<pre><code>-webkit代表谷歌内核识别码
+-o代表欧朋内核识别码
+-moz代表火狐内核识别码
+-ms代表ie内核识别码
+</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">这里写-webkit的兼容</div><div class="line">.div&#123;</div><div class="line">	animation-name:Effect1, Effect2;</div><div class="line">	animation-duration:3s, 2s;</div><div class="line">	animation-timing-function:linear, linear;</div><div class="line">	animation-delay:0, 2s;</div><div class="line">	animation-iteration-count:1, infinite;</div><div class="line">	animation-fill-mode:forwards, forwards;</div><div class="line">	animation-direction:normal, alternate;</div><div class="line"></div><div class="line">	-webkit-animation-name:Effect1, Effect2;</div><div class="line">	-webkit-animation-duration:3s, 2s;</div><div class="line">	-webkit-animation-timing-function:linear, linear;</div><div class="line">	-webkit-animation-delay:0, 2s;</div><div class="line">	-webkit-animation-iteration-count:1, infinite;</div><div class="line">	-webkit-animation-fill-mode:forwards, forwards;</div><div class="line">	-webkit-animation-direction:normal, alternate;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>附上项目案例</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1892086-f66bcdb2d077733d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Vanguard"></p>
 
       
 
@@ -261,7 +268,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=https://joinfisher.github.io/2017/08/20/hello-world/" alt="微信分享二维码">
+      <img src="http://s.jiathis.com/qrcode.php?url=https://joinfisher.github.io/2017/06/20/CSS3-连续执行两个动画/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -275,9 +282,18 @@
   
 <nav id="article-nav">
   
+    <a href="/2017/06/27/让页面所有a标签在新窗口打开/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          让页面所有a标签在新窗口打开
+        
+      </div>
+    </a>
   
-    <a href="/2017/06/27/让页面所有a标签在新窗口打开/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">让页面所有a标签在新窗口打开</div>
+  
+    <a href="/2017/06/14/IE7透明度兼容/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">IE7透明度兼容</div>
       <i class="icon-circle-right"></i>
     </a>
   
